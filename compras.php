@@ -143,10 +143,12 @@ require_once("includes/navbar.php");
 
 
 <h1>
-Registrar Compra
+Gestión de Pedidos
 </h1>
 
-
+<div class="alerta-info">
+    <strong>Nueva funcionalidad:</strong> Este módulo corresponde a la gestión inicial de pedidos de la tienda online y será utilizado para administrar las compras realizadas por los clientes.
+</div>
 
 <form action="acciones/guardar_compra.php" method="POST">
 
